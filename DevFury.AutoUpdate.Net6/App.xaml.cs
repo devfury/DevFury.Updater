@@ -1,6 +1,5 @@
 ﻿using DevFury.AutoUpdate.Models;
 using DevFury.AutoUpdate.Windows;
-using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Windows;
@@ -8,7 +7,7 @@ using System.Windows;
 namespace DevFury.AutoUpdate
 {
     /// <summary>
-    /// App.xaml에 대한 상호 작용 논리
+    /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : Application
     {

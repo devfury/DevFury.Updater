@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFury.AutoUpdate.NetFw462", "DevFury.AutoUpdate.NetFw462\DevFury.AutoUpdate.NetFw462.csproj", "{C7B358FE-3D78-4BAA-BF7E-4430DD2D2D83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFury.AutoUpdater", "DevFury.AutoUpdater\DevFury.AutoUpdater.csproj", "{2B6CD021-B252-4B08-80BF-5722AAA963B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFury.AutoUpdater", "DevFury.AutoUpdater\DevFury.AutoUpdater.csproj", "{2B6CD021-B252-4B08-80BF-5722AAA963B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFury.AutoUpdate.NetFw462Example", "DevFury.AutoUpdate.NetFw462Example\DevFury.AutoUpdate.NetFw462Example.csproj", "{6211C2A3-288B-4B81-A00C-484A24C35C9C}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "update", "update", "{894D14
 	ProjectSection(SolutionItems) = preProject
 		www\update\update-v1.0.0.1-netfw462.zip = www\update\update-v1.0.0.1-netfw462.zip
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFury.AutoUpdate.Net6", "DevFury.AutoUpdate.Net6\DevFury.AutoUpdate.Net6.csproj", "{47627303-1101-4705-ABBB-5A5F83850681}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{6211C2A3-288B-4B81-A00C-484A24C35C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6211C2A3-288B-4B81-A00C-484A24C35C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6211C2A3-288B-4B81-A00C-484A24C35C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47627303-1101-4705-ABBB-5A5F83850681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47627303-1101-4705-ABBB-5A5F83850681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47627303-1101-4705-ABBB-5A5F83850681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47627303-1101-4705-ABBB-5A5F83850681}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
