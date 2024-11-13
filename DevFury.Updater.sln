@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "www", "www", "{0B73F8B1-6C5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "update", "update", "{894D14AA-EBA3-4582-9E5F-B11F1441FCFF}"
 	ProjectSection(SolutionItems) = preProject
-		www\update\update-v1.0.0.1.zip = www\update\update-v1.0.0.1.zip
+		www\update\update-v1.0.0.1-netfw462.zip = www\update\update-v1.0.0.1-netfw462.zip
 	EndProjectSection
 EndProject
 Global

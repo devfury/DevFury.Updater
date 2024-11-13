@@ -26,7 +26,7 @@ namespace DevFury.AutoUpdate.NetFw462Example
             {
                 DevFuryUpdater.Update(
                     path: ".",
-                    url: "http://localhost/update/update-v1.0.0.1.zip",
+                    url: "http://localhost/update/update-v1.0.0.1-netfw462.zip",
                     title: "UpdaterExample");
 
                 Shutdown();
