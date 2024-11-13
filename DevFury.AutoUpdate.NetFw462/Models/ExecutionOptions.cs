@@ -15,6 +15,8 @@ namespace DevFury.AutoUpdate.Models
 
         public string RedirectCommand { get; set; } = "";
 
+        public bool IsForced { get; set; } = false;
+
         public ExecutionOptions(string title, string url, string path)
         {
             Title = title;
@@ -30,6 +32,7 @@ namespace DevFury.AutoUpdate.Models
             string path = null;
             string processName = null;
             string redirectCommand = "";
+            bool isForced = false;
 
             while (index < args.Length)
             {
@@ -50,6 +53,9 @@ namespace DevFury.AutoUpdate.Models
                         byte[] bytes = Convert.FromBase64String(args[index++]);
                         redirectCommand = Encoding.UTF8.GetString(bytes);
                         break;
+                    case "-f":
+                        isForced = true;
+                        break;
                     default:
                         url = arg;
                         break;
@@ -63,6 +69,7 @@ namespace DevFury.AutoUpdate.Models
             {
                 ProcessName = processName,
                 RedirectCommand = redirectCommand,
+                IsForced = isForced,
             };
         }
 

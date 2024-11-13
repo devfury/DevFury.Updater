@@ -381,8 +381,15 @@ namespace DevFury.AutoUpdate.Windows
 
                 foreach (Process process in runningProcesses)
                 {
-                    process.CloseMainWindow();
-                    process.WaitForExit();
+                    if (Options.IsForced)
+                    {
+                        process.Kill();
+                    }
+                    else
+                    {
+                        process.CloseMainWindow();
+                        process.WaitForExit();
+                    }
                 }
 
                 Console.WriteLine("프로세스를 강제로 종료했습니다.");
