@@ -19,6 +19,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFury.AutoUpdate.NetFw462
 		{C7B358FE-3D78-4BAA-BF7E-4430DD2D2D83} = {C7B358FE-3D78-4BAA-BF7E-4430DD2D2D83}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "www", "www", "{0B73F8B1-6C51-4AF7-A326-AC912F25D231}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "update", "update", "{894D14AA-EBA3-4582-9E5F-B11F1441FCFF}"
+	ProjectSection(SolutionItems) = preProject
+		www\update\update-v1.0.0.1.zip = www\update\update-v1.0.0.1.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +47,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{894D14AA-EBA3-4582-9E5F-B11F1441FCFF} = {0B73F8B1-6C51-4AF7-A326-AC912F25D231}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {212E8B37-68D6-48DC-A300-AF1E3EE91200}
